@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+# Basic ERC20 Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Smart Contract for an ERC20 Token
+Token Details
 
-Try running some of the following tasks:
+```
+Name: Banana Token
+Symbol : BNT
+Maximum Supply : 1,000,000 tokens
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+Contract Address : 0x281372331db347E2346648c8b7426A188f1801A3
+Etherscan : https://rinkeby.etherscan.io/address/0x281372331db347E2346648c8b7426A188f1801A3
 ```
